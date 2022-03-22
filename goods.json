@@ -1,0 +1,99 @@
+{
+    "goods": [
+        { 
+            "id": 1, 
+            "title": "The Last Place",
+            "price": 14.99,
+            "imgSrc": "img/1.jpg",
+            "artNum": 48,
+            "color": "#222" 
+        },
+        {   
+            "id": 2, 
+            "title": "A Study",
+            "price": 12.99,
+            "imgSrc": "img/2.jpg",
+            "artNum": 100002,
+            "color": "#222" 
+        },
+        { 
+            "id": 3, 
+            "title": "The Dime",
+            "price": 23.99,
+            "imgSrc": "img/3.jpg",
+            "artNum": 100003,
+            "color": "#222" 
+        },
+        {   
+            "id": 4, 
+            "title": "Girl Waits with Gun",
+            "price": 18.99,
+            "imgSrc": "img/4.jpg",
+            "artNum": 100004,
+            "color": "#222" 
+        },        { 
+            "id": 5, 
+            "title": "The Unquiet Dead",
+            "price": 15.99,
+            "imgSrc": "img/5.jpg",
+            "artNum": 100005,
+            "color": "#222" 
+        },
+        {   
+            "id": 6, 
+            "title": "Salvation of a Saint",
+            "price": 8.99,
+            "imgSrc": "img/6.jpg",
+            "artNum": 100006,
+            "color": "#222" 
+        },        { 
+            "id": 7, 
+            "title": "IQ",
+            "imgSrc": "img/7jpg.jpg",
+            "price": 25.99,
+            "artNum": 100007,
+            "color": "#222" 
+        },
+        {   
+            "id": 8, 
+            "title": "The Janes",
+            "price": 17.99,
+            "imgSrc": "img/8.jpg",
+            "artNum": 100008,
+            "color": "#222" 
+        },        
+        { 
+            "id": 9, 
+            "title": "Bluebird, Bluebird",
+            "price": 9.99,
+            "imgSrc": "img/9.jpg",
+            "artNum": 100009,
+            "color": "#222" 
+        },
+        {   
+            "id": 10, 
+            "title": "The Likeness",
+            "price": 13.99,
+            "imgSrc": "img/10.jpg",
+            "artNum": 100010,
+            "color": "#222" 
+        },
+        {   
+            "id": 11, 
+            "title": "Newcomer",
+            "price": 18.99,
+            "imgSrc": "img/11.jpg",
+            "artNum": 100010,
+            "color": "#222" 
+        },
+        {   
+            "id": 12, 
+            "title": "The Murder",
+            "price": 18.99,
+            "imgSrc": "img/12jpg.jpg",
+            "artNum": 100010,
+            "color": "#222" 
+        }
+
+    ]
+}
