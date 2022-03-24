@@ -1,0 +1,86 @@
+
+
+.modal {
+position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.25);
+  animation-name: appear;
+  animation-duration: 300ms;
+
+
+    &__content {
+  width: 100%;
+  max-width: 550px;
+  background:red;
+  position: relative;
+  margin: 0 20px;
+  max-height: calc(100vh - 40px);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation-duration: 0.5s;
+  border-radius: 10px;
+  text-align: center;
+    }
+    
+
+    &__header {
+        height: 25%;
+        padding: 25px;
+        background-color:rgba(0, 0, 0, .1); 
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    
+    &__header-title {
+        font-size: 29px;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__body {
+        padding: 25px 40px;
+        font-size: 21px;
+    }
+
+    &__buttons button {
+        justify-content: center;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        padding: 10px;
+        background-color:blueviolet;
+        color:black;
+        border-radius: 5%;
+        text-align: center;
+        width: 25%;
+    }
+   
+
+    &__close {
+        text-decoration: none;
+        font-size: 21px;
+        position: absolute;
+        right: 9px;
+        top: 8px;
+        background-color: inherit;
+        border-radius: 50%;
+        width: 6%;
+    }
+
+    &__close:hover {
+        color:#FFF;
+    }
+}
